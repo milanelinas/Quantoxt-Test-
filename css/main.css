@@ -1,0 +1,103 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 { 
+    margin: 50px 0;
+    text-align: center; 
+    color:#6d7959; 
+}
+
+.wrap { 
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+} 
+
+
+ul#informations {
+    display: flex;
+    width: 100%;
+    background:#6d7959;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+
+
+ul#acInfoHolder a { 
+    text-decoration: none;
+    color: #6d7959;
+}
+
+
+ul#acInfoHolder a li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    transition: 0.5s linear all; 
+ 
+}
+
+ul#acInfoHolder a li:hover {
+    background: #6d7959;
+    color: white;
+    font-weight: bold; 
+}
+
+ul#acInfoHolder li {
+    border-bottom: 1px solid #6d7959;
+}
+
+
+ul#acInfoHolder * { 
+    width: 33%;
+    text-align: center;
+}
+
+
+
+ul#informations li {
+    width: 33%;
+    text-align: center;
+}
+
+div#flight-info {
+    text-align: center;
+}
+
+
+
+div#flight-info-manuf { 
+    color: #6d7959;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div#flight-info-alt { 
+color: #6d7959;
+}
+
+
+div#notif {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background:#6d7959;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
